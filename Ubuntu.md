@@ -28,7 +28,7 @@
 6. Log out from *root* and login as *newuser*
 7. Change settings in SSH configuration
 	- Open file
-		- `$ sudo nano /etc/ssh/sshd.config`
+		- `$ sudo nano /etc/ssh/sshd_config`
 	- Uncomment the following settings, edit if needed
 		```
 		PasswordAuthentication no
